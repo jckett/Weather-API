@@ -12,4 +12,4 @@ Completed in Python, the following packages are used
 
 # Launch
 
-Built in Python, this program can be run from any Python IDE.
+Built in Python, this program can be run from any Python IDE. The user will need to acquire their own OpenWeaterApp API from [their website]https://openweathermap.org/api
