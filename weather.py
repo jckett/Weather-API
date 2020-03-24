@@ -22,7 +22,7 @@ class celsiusUnit():
         cityName = input('\n' "What is your city? ")
 
         try:
-            api = 'https://api.openweathermap.org/data/2.5/weather?q={}&APPID=858a38b4f15ecdcacc524948ba8f2d3f'.format(cityName)
+            api = 'https://api.openweathermap.org/data/2.5/weather?q={}&APPID=YOURID'.format(cityName)
             source = requests.get(api)
             data = json.loads(source.text)
             temperature = data['main']['temp']
@@ -37,7 +37,7 @@ class celsiusUnit():
         countryCode = input("What is your country code? ")
 
         try:
-            api = 'https://api.openweathermap.org/data/2.5/weather?q={},{}&APPID=858a38b4f15ecdcacc524948ba8f2d3f'.format(zipCode,countryCode)
+            api = 'https://api.openweathermap.org/data/2.5/weather?q={},{}&APPID=YOURID'.format(zipCode,countryCode)
             source = requests.get(api)
             data = json.loads(source.text)
             temperature = data['main']['temp']
