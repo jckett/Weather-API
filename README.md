@@ -1,4 +1,4 @@
-# Calculator
+# Weather App
 
 This program creates weather forecast reports with data extracted with the OpenWeatherApp API and user input. 
 
